@@ -18,7 +18,7 @@
   .mobile-size-h1 {
     margin-left: 35px;
     margin-right: 0;
-    margin-top: 88px;
+    margin-top: 288px;
     margin-bottom: 10px;
 
     font-size: 48px;
@@ -42,7 +42,7 @@
   .mobile-size-img {
     padding-left: 30px;
     padding-right: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     margin-top: -2px;
     border-radius: 61px;
     max-width: 100%;
@@ -53,6 +53,8 @@
     margin-right: auto;
     width: 100%;
     max-width: 728px;
+    /* overflow:auto; */
+    overflow: hidden;
   }
 
   .mobile-size-wrapper {
@@ -70,7 +72,41 @@
     align-items: flex-start;
     justify-content: flex-start;
     max-width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: -80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-size-h1 {
+    margin-left: 35px;
+    margin-right: 0;
+    margin-top: 88px;
+    margin-bottom: 10px;
+
+    font-size: 48px;
+    line-height: 44px;
+    width: 100%;
+  }
+
+  .mobile-size-p {
+    margin-left: 40px;
+    margin-bottom: 24px;
+    width: 100%;
+    font-size: 11px;
+  }
+
+  .mobile-size-button {
+    margin-left: 130px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .mobile-size-img {
+    /* padding-left: 30px; */
+    padding-right: 30px;
+    border-radius: 61px;
+    max-width: 100%;
+    margin-top: 180px;
   }
 }
 
