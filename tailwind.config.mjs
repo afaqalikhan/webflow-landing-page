@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
+import { Ubuntu } from 'next/font/google';
+
 const { fontFamily } = require('tailwindcss/defaultTheme');
 
 export default {
@@ -10,10 +12,6 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
       fontFamily: {
         ubuntu: ['Ubuntu', ...fontFamily.sans], // Use the CSS variable
       },
